@@ -1,0 +1,220 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.8]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{} % Your first name
+\familyname{Joshua Zink-Duda} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Resumé}
+\address{1106 N Hanley Rd}{St. Louis, MO 63130}
+\mobile{(314) 971 5640}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{zinkdudajoshua@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+\vspace{-1.0cm}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\cventry{May 2016}{Vanderbilt University}{Bachelor of Science}{}{}{\normalsize Majors: Computer Science and Mathematics}
+%\cventry{May 2016}{Vanderbilt University}{Bachelor of Science}{}{\textit{GPA -- 3.3}}{\normalsize Majors: Computer Science and Mathematics \newline Minor: Astronomy}
+\cventry{May 2012}{St. Louis University High School}{}{}{}{}  % Arguments not required can be left empty
+%\cventry{May 2012}{St. Louis University High School}{\textit{GPA -- 4.1}}{First Honors}{}{}  % Arguments not required can be left empty
+%\cventry{Summer 2011}{Students and Teachers as Research Scientists (STARS)}{}{}{}{
+%	\begin{itemize}
+%    \item Collaborated with St. Louis University professor on geotechnical research
+%    \item Wrote research paper and presented results upon conclusion
+%    \end{itemize}
+%}
+%\cventry{Summer 2010}{Missouri Scholar's Academy}{}{Program for gifted students in Missouri}{}{
+%	\begin{itemize}
+%    \item Attended daily classes on probability and statistics and a discussion of applications of art and mathematics
+%    \end{itemize}
+%}
+
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Work Experience}
+
+\cventry{2016--Present}{Analyst, Application Developer}{\textsc{Panera Bread}}{St. Louis, MO}{}{
+\begin{itemize}
+    \item Designed, developed, documented, and deployed 200 APIs for an Enterprise Service Bus (ESB) with over 5 million daily transactions
+    \item Assumed lead developer role for ESB starting in 2019
+    \item Designed and wrote web services in Java using Spring MVC
+    \item Automated deployments of ESB and Spring services using Ansible and Rundeck
+    \item Coordinated with internal teams on projects to design and develop various integrations
+    \item Met with third-party vendors and wrote APIs and services to integrate their products
+\end{itemize}}
+
+%\cventry{2015}{Teaching Assistant}{\textsc{Vanderbilt University}}{Nashville, TN}{}{
+%\begin{itemize}
+%\item Assisted with grading homework projects and exams for 200 students
+%\item Held weekly office hours to assist students with their homework
+%\end{itemize}}
+
+\cventry{Summer 2014}{IT Intern}{\textsc{Panera Bread}}{St. Louis, MO}{}{
+\begin{itemize}
+\item Catalogued router type and specifications for cafés
+\item Assisted with remote router updates in cafés
+\end{itemize}}
+
+\cventry{2013--2014}{Computer Technician}{\textsc{Vanderbilt University Medical Center}, Clinical Research Center Informatics Department}{Nashville, TN}{}{
+\begin{itemize}
+\item Developed software applications to assist researchers
+%\item Built a system to assist with data backup
+\item Designed and implemented an application to send surveys to patients via SMS and record their responses
+\end{itemize}}
+
+%\cventry{Summers 2012, 2013}{Engineering Intern}{\textsc{William Tao and Associates}}{St. Louis, MO}{}{
+%\begin{itemize}
+%\item Assisted engineers with calculations
+%\item Produced building drawings in AutoCAD
+%\item Archived old project files
+%\item Developed spreadsheets for pipe sizing, duct sizing,
+%smoke exhaust, and lab exhaust dilution
+%\end{itemize}}
+
+
+\section{Research Experience}
+
+\cventry{Summer 2015}{Research Student}{\textsc{Third La Serena School for Data Science:} Applied Tools for Astronomy}{AURA Campus, La Serena, Chile}{}{
+\begin{itemize}
+\item Attended lectures on astronomy, machine learning, databases, and advanced statistics
+\item Received training for the Virtual Observatory, development and data visualization tools, and high performance computing
+\item Collaborated with other students on research project to look for supermassive black hole binaries utilizing analysis of variance and Lomb-Scargle analysis
+\end{itemize}}
+
+\cventry{2015}{Research Intern}{\textsc{Vanderbilt University}}{Nashville, TN}{}{
+\begin{itemize}
+\item Developed multi-datapoint selection tool for Filtergraph data visualization software using HTML5 Canvas
+\item Assisted with candidate selection for NASA's Transiting Exoplanet Survey Satellite
+\end{itemize}}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+
+%\cvitem{2011}{School of Business Postgraduate Scholarship}
+%\cvitem{2010}{Top Achiever Award -- Commerce}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+%\iffalse
+\section{Technical Skills}
+\cventry{}{\textnormal{Java, SQL, Python, C, C++, Spring MVC, WSO2 ESB, Ansible, Rundeck, Git, REST APIs, Jira}}{}{}{}{}
+%\cventry{}{Soft Skills}{}{}{}{\textnormal{Product Ownership, Communication, Adaptability, Collaboration}}
+\iffalse
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Communication Skills}
+
+\cvitem{2010}{Oral Presentation at the California Business Conference}
+\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{English}{Mothertongue}{}
+\cvitemwithcomment{Spanish}{Intermediate}{Conversationally fluent}
+\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Piano}{Chess}
+\cvlistdoubleitem{Cooking}{Dancing}
+\cvlistitem{Running}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+\clearpage
+
+\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+\date{\today} % Letter date
+\opening{Dear Sir or Madam,} % Opening greeting
+\closing{Sincerely yours,} % Closing phrase
+\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+\makelettertitle % Print letter title
+
+\lipsum[1-3] % Dummy text
+
+\makeletterclosing % Print letter signature
+\fi
+%----------------------------------------------------------------------------------------
+
+\end{document}
